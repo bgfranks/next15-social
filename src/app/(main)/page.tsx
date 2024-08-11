@@ -1,9 +1,12 @@
+import PostEditor from "@/components/posts/editor/PostEditor";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>yo</h1>
+    <main className="h-[200vh] w-full">
+      <div className="w-full">
+        <PostEditor />
+      </div>
     </main>
   );
 }
